@@ -9,15 +9,12 @@
  */
 int main(void)
 {
-	int i;
+	int n;
 
-	for (i = 97; i < 123; i++)
+	for (n = 9; n <= 9; n++)
 	{
-		if (i != 101 && i != 113)
-		{
-			putchar(i);
-		}
+		printf("%d", n);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
